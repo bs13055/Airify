@@ -38,7 +38,7 @@
     if (!message) return;
     const text = document.createElement('p'); text.textContent = descriptions[button.dataset.plan];
     const link = document.createElement('a'); const premium = button.dataset.plan === 'premium';
-    link.href = premium ? 'try.html' : 'https://github.com/bs13055/Airify-GP1';
+    link.href = premium ? 'try.html' : 'https://github.com/bs13055/Airify';
     link.textContent = premium ? 'เปิด Try Airify Now' : 'ดูโครงการบน GitHub';
     if (!premium) { link.target = '_blank'; link.rel = 'noopener noreferrer'; }
     message.replaceChildren(text, link); message.hidden = false;

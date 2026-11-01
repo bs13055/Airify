@@ -1,12 +1,12 @@
-# Airify GP1 — Air Quality. Made Personal.
+# Airify — Air Quality. Made Personal.
 
-**เว็บไซต์งาน GP1: https://bs13055.github.io/Airify-GP1/**
+**เว็บไซต์งาน GP1: https://bs13055.github.io/Airify/**
 
-Repository นี้แยกจาก Airify ตัวเดิมโดยเฉพาะ ประกอบด้วย:
+Repository นี้เป็นเว็บ Airify ใหม่ แยกจากตัวทดลองที่ชื่อ airify-test ประกอบด้วย:
 
-- [หน้าหลัก](https://bs13055.github.io/Airify-GP1/)
-- [ทีมสมาชิก](https://bs13055.github.io/Airify-GP1/about.html)
-- [Airify Health](https://bs13055.github.io/Airify-GP1/try.html)
+- [หน้าหลัก](https://bs13055.github.io/Airify/)
+- [ทีมสมาชิก](https://bs13055.github.io/Airify/about.html)
+- [Airify Health](https://bs13055.github.io/Airify/try.html)
 
 ## Source and checks
 
