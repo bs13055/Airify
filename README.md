@@ -22,6 +22,6 @@ Airify Health เรียกข้อมูลแบบจำลอง PM2.5 �
 
 ## Assets
 
-รูปสมาชิกและลิงก์ Resume ทั้ง 4 คนมาจากผู้ใช้ ภาพประกอบกรุงเทพฯ สร้างด้วย OpenAI ImageGen สำหรับโครงงาน รูปสวนมี provenance ใน `assets/airify-bangkok-park.provenance.json` ส่วนภาพเมืองยามเย็นเป็นภาพเมืองกรุงเทพฯ ยาม blue hour ไม่มีข้อความหรือคน
+สมาชิก 5 คนพร้อมลิงก์ Resume ที่ผู้ใช้ให้มา รูปของ Watcharakorn ใช้รูปโปรไฟล์จากหน้า Resume ที่ระบุ ภาพประกอบกรุงเทพฯ สร้างด้วย OpenAI ImageGen สำหรับโครงงาน รูปสวนมี provenance ใน `assets/airify-bangkok-park.provenance.json` ส่วนภาพเมืองยามเย็นเป็นภาพเมืองกรุงเทพฯ ยาม blue hour ไม่มีข้อความหรือคน
 
 Bootstrap มี license ใน `assets/vendor/bootstrap/LICENSE` แผนที่ใช้ Leaflet และ OpenStreetMap ตาม attribution ที่แสดงในแอป

@@ -3,6 +3,7 @@ const TEAM = [
   { initials: 'LR', name: 'Luksanut Rueangkhajon', role: 'Data & AI Engineer', detail: 'Data Analytics & Prediction Models', photo: 'assets/team/73173.jpg', profile: 'https://luksanut.github.io/Reusme/' },
   { initials: 'TC', name: 'Tanawat Chantarawong', role: 'Frontend Developer & UI/UX Designer', detail: 'Web Development & Responsive Design', photo: 'assets/team/73172.jpg', profile: 'https://zentialab.github.io/resume/' },
   { initials: 'NP', name: 'Naphat Phanthong', role: 'Project Lead & Full Stack Developer', detail: 'Product Management & System Integration', photo: 'assets/team/73171.jpg', profile: 'https://bs13055.github.io/resume/' },
+  { initials: 'WP', name: 'Watcharakorn Piromnok', role: 'Developer', detail: '', photo: 'assets/team/watcharakorn.jpg', profile: 'https://non-watcharakorn.github.io/My-resume/' },
 ];
 
 const root = document.getElementById('teamGrid');

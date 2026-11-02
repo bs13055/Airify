@@ -32,10 +32,11 @@ for (const file of fs.readdirSync(path.join(base, 'assets')).filter(x => x.endsW
 }
 pass('CSS referenced assets exist');
 const team = vm.runInNewContext(read('assets/team.js') + ';TEAM', {document:{getElementById:()=>null}});
-assert.equal(team.length, 4);
+assert.equal(team.length, 5);
 assert.equal(team.find(p=>p.initials==='TS').profile, 'https://jamethaksin.github.io/resume');
 assert.ok(team.every(p=>p.profile.startsWith('https://') && fs.existsSync(path.join(base, p.photo))));
-pass('four members have supplied resume URLs and photos');
+assert.equal(team.find(p=>p.initials==='WP').profile, 'https://non-watcharakorn.github.io/My-resume/');
+pass('five members have supplied resume URLs and photos');
 const mobile = read('assets/mobile.js');
 function extract(start, end) { return mobile.slice(mobile.indexOf(start), mobile.indexOf(end, mobile.indexOf(start))); }
 class Node {

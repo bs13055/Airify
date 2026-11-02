@@ -104,7 +104,7 @@
 .team-section .member-card:hover{border-color:#9dc9f4;box-shadow:0 20px 40px rgba(29,70,113,.17)}
 .member-index{color:#7891aa}
 .member-profile-pending{border:0;background:#f0f5fa;color:#73879c!important}
-.team-column:nth-child(4){grid-column:2}
+.team-column:nth-child(4):last-child{grid-column:2}
 @media(max-width:1199.98px){.team-column:nth-child(4){grid-column:auto}}
 
 /* About page image and supporting panels */
